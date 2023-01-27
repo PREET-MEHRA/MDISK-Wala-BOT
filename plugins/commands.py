@@ -38,7 +38,7 @@ async def mdisk_handler(_, event: Message):
             ],
 
              [InlineKeyboardButton("TeraBox", callback_data="Terabox_msg"),
-             InlineKeyboardButton('Watch Video', url='https://t.me/LazyDeveloper')
+             InlineKeyboardButton('Watch Video', url='https://youtube.com/@punjabi_filmy_pitaara4558')
              ]
         ])
     )
@@ -68,7 +68,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/LazyDeveloperSupport')
+            InlineKeyboardButton('Support', url=f'https://t.me/+iVX24lYWqRZhZjFl')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
