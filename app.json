@@ -1,5 +1,5 @@
 {
-    "name": "MdiskSearchBOT-TC",
+    "name": "MDISK-Wala-BOT",
     "description": "This is Inline Channel Messages Search Bot",
     "keywords": [
         "telegram",
@@ -8,9 +8,9 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/LazyDeveloperr/MdiskSearchBOTTC",
-    "website": "https://telegram.dog/LazyDeveloperr",
-    "success_url": "https://t.me/LazyDeveloperr",
+    "repository": "https://github.com/PREET-MEHRA/MDISK-Wala-BOT",
+    "website": "https://github.com/PREET-MEHRA",
+    "success_url": "https://github.com/PREET-MEHRA",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
