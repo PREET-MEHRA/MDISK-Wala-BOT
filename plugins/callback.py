@@ -119,7 +119,7 @@ async def button(bot, cmd: CallbackQuery):
             ], 
                                         [
                         InlineKeyboardButton("How To Watch?", callback_data="Watch_msg"),
-                        InlineKeyboardButton('Support', url='http://t.me/LazyDeveloperSupport')
+                        InlineKeyboardButton('Support', url='https://t.me/+iVX24lYWqRZhZjFl')
                     ]
                 ]
             ),
@@ -189,7 +189,7 @@ async def button(bot, cmd: CallbackQuery):
             ], 
                                         [
                         InlineKeyboardButton("Terabox", callback_data="Terabox_msg"),
-                        InlineKeyboardButton('Watch Video', url='https://t.me/LazyDeveloper')
+                        InlineKeyboardButton('Watch Video', url='https://youtube.com/@punjabi_filmy_pitaara4558')
                     ],[
                         InlineKeyboardButton("Back", callback_data="Watch_msg")
                     ]
