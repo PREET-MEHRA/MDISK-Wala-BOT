@@ -5,17 +5,17 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "133273016"))
-    API_HASH = os.getenv("API_HASH", "68e791e61610028748b0a53ae86a661a12")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5912048119:AAHrcUjE38mYG3noFRw5B5GQosaSJ6Fa7-x1s")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKkBu09s73VLGQQnQZp81QLu_hvbfV9yEuhmccZdjyWtbbXB-m2ujGrZ8HY9RymfBfBDrrZqChCCLSXWhZ54D8FCVpkiAO1GI-c85ZDExvGUu_3g-QdoqL7Kf-K6tK4I-u8CmeNmQKXLO-jPS89BphFytogqFKYCNvv7Kw2WOlbcEzsijo5xFYFWmVsccKPGdgGL9xvWTB-51uH36joGzuBnT6TGMftMGmUK5DQQF5i6Lk2_0EknKBN5Q3YpP_JNiOl9PntcvYHPUkgecupU2m5DKi5TMwHgI5ohFMezIrHH0NNG63AHYf35UGSienCWbwG8Csn8VceLQMnXrKZcRbIy-McIY=")
+    API_ID = int(os.getenv("API_ID", "9561254"))
+    API_HASH = os.getenv("API_HASH", "c07ff08fbdfc2c31894c890082cbc0a6")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6102923567:AAEmz4yl8fcB_BNikxBEshNXge3KFVn2fyc")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "royalpreet")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKEBu5gxJJlyWuzRAddPydHgz-ROTDiGImFbF1yD17RnUmzPiVPYIZDj3mtHP5WbyZyChapQo01I_aFZukYqhpdz4XEChKYtUGJ0D03UdSnrn6yn43hSp7M6wt4IBtbY-sSDVUyaJxg5eeN0dq8z6T24WXTh-vksmHOFtW-fXO469ptsOKheL2OJg_-U04j8wfSBiiZOBWKxcWjwXAR2amlehVf91HIllgbE1fuEHFlZ31zjlfQQ2vNcX6ZpLUBpcoW_SDL0O75ilE7SQOto00IvDRM1Bhdwx8VOET3Y73aj6L2ukMCi701WN7bmI7DVvj5vxYbY8ySF35LbgkaymC5sZA0=")
 #   Channel id where your posts are stored.
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-100180838783308")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "lazydeveloperr")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "LazyDeveloper")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001676927129")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "MDISK_WALA_BOT")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5913027292"))
+#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "ROYAL_PREET_MEHRA")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Backup_villa_89")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hello {}, 
 
@@ -24,21 +24,21 @@ I am a simple Movie Search BOT.
 I can give movie links containing mDisk links.
 
 Just Type Movie name in pm or group 🦋**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "")
+    START_PHOTO = os.getenv("START_PHOTO", "https://te.legra.ph/file/1d3f715bdacda8a4cbb44.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001765107260")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lazy:lazy@lzyxdev786.lpvunddl5.mongodb.net/eieokxk?redddltryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001782419622"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001882630105")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://DEEP:786@cluster0.a4ykxqy.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001619538985"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "LazyDeveloper")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "update_villa86")
     FORCE_SUB = os.getenv("FORCE_SUB", "True")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 120))
-    MDISK_API = os.getenv("MDISK_API", "W4VnYiwHUevmAutlFmkW")
+    MDISK_API = os.getenv("MDISK_API", "8VqlhFO3xF5TCMP6KWOR")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
